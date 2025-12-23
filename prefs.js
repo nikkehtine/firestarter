@@ -1,13 +1,8 @@
 // Turning off telemetry
-user_pref("app.normandy.api_url", "");
 user_pref("app.normandy.enabled", false);
-user_pref("breakpad.reportURL", "");
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
-user_pref("browser.safebrowsing.appRepURL", "");
-user_pref("browser.safebrowsing.enabled", false);
-user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("datareporting.healthreport.service.enabled", false);
 user_pref("datareporting.healthreport.uploadEnabled", false);
@@ -34,7 +29,6 @@ user_pref("experiments.activeExperiment", false);
 user_pref("experiments.enabled", false);
 user_pref("experiments.manifest.uri", "");
 user_pref("experiments.supported", false);
-user_pref("extensions.shield-recipe-client.api_url", "");
 user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("network.allow-experiments", false);
 
@@ -57,11 +51,14 @@ user_pref("extensions.ml.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.disableResetPrompt", true);
-user_pref("browser.newtabpage.enhanced", false);
+user_pref("browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.urlbar.quicksuggest.enabled", false);
 user_pref("browser.urlbar.sponsoredTopSites", false);
 user_pref("browser.urlbar.sponsoredSuggestions", false);
 user_pref("browser.urlbar.trimURLs", false);
+user_pref("trailhead.firstrun.didSeeAboutWelcome", true);
 
 // Privacy enhancements
 user_pref("browser.sendPings", false);
