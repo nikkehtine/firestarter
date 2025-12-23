@@ -16,7 +16,11 @@ This is a very minimal config, so it should be compatible with all modern Firefo
 
 ## Screenshots
 
-> Will be added later
+### Before
+<img width="560" height="44" alt="firefox_xgWPOO9tHD" src="https://github.com/user-attachments/assets/0586349d-0c02-4673-b368-b7c85207d7cd" />
+
+### After
+<img width="560" height="45" alt="firefox_p3jwjHXCM4" src="https://github.com/user-attachments/assets/0017a464-4412-4470-87f4-56322bb2fbe4" />
 
 ## Installing
 
