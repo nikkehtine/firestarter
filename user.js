@@ -1,4 +1,4 @@
-// Turning off telemetry
+// Turn off telemetry
 user_pref("app.normandy.enabled", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
@@ -45,25 +45,38 @@ user_pref("browser.tabs.groups.smart.userEnable", false);
 user_pref("extensions.ml.enabled", false);
 
 // Disable other junk/annoyances
-user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.disableResetPrompt", true);
 user_pref("browser.newtabpage.activity-stream.showSponsored", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("browser.promo.enabled", false);
+user_pref("browser.vpn_promo.enabled", false);
 user_pref("browser.urlbar.quicksuggest.enabled", false);
 user_pref("browser.urlbar.sponsoredTopSites", false);
 user_pref("browser.urlbar.sponsoredSuggestions", false);
+user_pref("browser.urlbar.suggest.trending", false);
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+
+// Disable first run popups
+user_pref("browser.aboutConfig.showWarning", false);
+user_pref(
+  "browser.firefox-view.feature-tour",
+  '{"message":"FIREFOX_VIEW_FEATURE_TOUR","screen":"","complete":true}',
+);
 user_pref("trailhead.firstrun.didSeeAboutWelcome", true);
+user_pref("media.videocontrols.picture-in-picture.video-toggle.has-used", true);
 
 // Privacy enhancements
 user_pref("browser.sendPings", false);
 user_pref("dom.battery.enabled", false);
 user_pref("device.sensors.enabled", false);
 
-// Extra goodies
-user_pref("browser.urlbar.trimURLs", false);
-user_pref("general.smoothScroll.msdPhysics.enabled", true);
-
 // Enable UI tweaks
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+
+// Extra quality-of-life goodies
+user_pref("browser.urlbar.trimURLs", false);
+user_pref("general.smoothScroll.msdPhysics.enabled", true);
+user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
+user_pref("gfx.font_rendering.cleartype_params.enhanced_contrast", 50);

@@ -24,6 +24,10 @@ This is a very minimal config, so it should be compatible with all modern Firefo
 
 ## Installing
 
+> [!WARNING]
+> Install this config right after a fresh Firefox installation or after creating a new profile.
+> Installing on a profile already in use can cause issues. Use at your own risk.
+
 1. Download this repository
 2. Go to `about:support`
 3. Click on the *open profile folder* button
