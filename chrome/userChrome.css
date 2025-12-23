@@ -26,10 +26,3 @@
 #tabbrowser-tabs {
     border-inline-start: none !important;
 }
-
-/* And the space between pinned and unpinned tabs */
-#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
-    > #tabbrowser-arrowscrollbox
-    > .tabbrowser-tab:nth-child(1 of :not([pinned], [hidden])) {
-    margin-inline-start: unset !important;
-}
