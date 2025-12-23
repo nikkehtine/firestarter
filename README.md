@@ -26,8 +26,6 @@ This is a very minimal config, so it should be compatible with all modern Firefo
 4. Copy the `chrome` folder and the `prefs.js` file from this repository to the profile folder you just opened
 5. Close Firefox completely then launch it again
 
-3. Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
-
 ## Acknowledgements
 
 -   [Soft-Bred and Brave-Fox](https://github.com/Soft-Bred/Brave-Fox) for [this cool document about styling Firefox](https://brave-fox.notion.site/Overflow-Files-adf332802aab4dcf98785f9b7307ea5f)
