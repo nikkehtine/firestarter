@@ -8,11 +8,27 @@ This is a very minimal config, so it should be compatible with all modern Firefo
 
 ## Tweaks
 
+### Privacy
+-   Disable telemetry and data collection
+-   Disable experiments
+-   Disable some APIs used for tracking/fingerprinting (that don't break websites or functionality)
+
+### Decluttering/debloating
+-   Disable AI features
+-   Disable Mozilla self-promo (Mozilla VPN)
+-   Disable ads (Firefox Suggest, sponsored links)
+-   Disable first-run popups
+
 ### UI
--   The tab close button is hidden by default and visible on hover
--   You can enable always showing the close button on active tabs
--   The left side separator on the tab bar has been removed
--   The extra padding on the left on unmaximized windows is gone
+-   Hide the tab close button and show it on hover
+    -   You can enable always showing the close button on active tabs
+-   Remove the left side separator on the tab bar 
+-   Remove extra padding on the left on unmaximized windows
+
+### Extras
+-   Enable more natural smooth scrolling
+-   Show full URLs in the address bar
+-   Enable smoother font rendering on Windows
 
 ## Screenshots
 
@@ -32,7 +48,21 @@ This is a very minimal config, so it should be compatible with all modern Firefo
 2. Go to `about:support`
 3. Click on the *open profile folder* button
 4. Close Firefox completely
-5. Copy the `chrome` folder and the `prefs.js` file from this repository to the profile folder you just opened
+5. Copy the `chrome` folder and the `user.js` file from this repository to the profile folder you just opened
+6. Restart Firefox
+
+## What's Next?
+
+I recommend installing some extensions to enhance your browsing experience:
+
+-   [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - Block ads and trackers
+-   [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) - Dark mode for websites
+-   [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) - Better password manager (multiplatform)
+-   [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/) - Skip annoying URL shorteners
+-   [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) - Skip sponsored segments on YouTube
+-   [Return YouTube Dislike](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/) - Bring back dislikes on YouTube
+-    [YouTube Row Fixer](https://addons.mozilla.org/en-US/firefox/addon/youtube-row-fixer-extension/) - Make homepage less claustrophobic
+-   [YouTube No Translation](https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/) - Turn off AI auto-dubbing and title auto-translations
 
 ## Acknowledgements
 
