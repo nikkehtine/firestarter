@@ -27,8 +27,8 @@ This is a very minimal config, so it should be compatible with all modern Firefo
 1. Download this repository
 2. Go to `about:support`
 3. Click on the *open profile folder* button
-4. Copy the `chrome` folder and the `prefs.js` file from this repository to the profile folder you just opened
-5. Close Firefox completely then launch it again
+4. Close Firefox completely
+5. Copy the `chrome` folder and the `prefs.js` file from this repository to the profile folder you just opened
 
 ## Acknowledgements
 

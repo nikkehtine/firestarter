@@ -9,7 +9,6 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
-user_pref("toolkit.telemetry.cachedClientID", "");
 user_pref("toolkit.telemetry.enabled", false);
 user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
 user_pref("toolkit.telemetry.hybridContent.enabled", false);
@@ -17,7 +16,6 @@ user_pref("toolkit.telemetry.newProfilePing.enabled", false);
 user_pref("toolkit.telemetry.prompted", 2);
 user_pref("toolkit.telemetry.rejected", true);
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
-user_pref("toolkit.telemetry.server", "");
 user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.unifiedIsOptIn", false);
@@ -27,7 +25,6 @@ user_pref("toolkit.telemetry.updatePing.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
 user_pref("experiments.activeExperiment", false);
 user_pref("experiments.enabled", false);
-user_pref("experiments.manifest.uri", "");
 user_pref("experiments.supported", false);
 user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("network.allow-experiments", false);
@@ -57,13 +54,16 @@ user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.urlbar.quicksuggest.enabled", false);
 user_pref("browser.urlbar.sponsoredTopSites", false);
 user_pref("browser.urlbar.sponsoredSuggestions", false);
-user_pref("browser.urlbar.trimURLs", false);
 user_pref("trailhead.firstrun.didSeeAboutWelcome", true);
 
 // Privacy enhancements
 user_pref("browser.sendPings", false);
 user_pref("dom.battery.enabled", false);
 user_pref("device.sensors.enabled", false);
+
+// Extra goodies
+user_pref("browser.urlbar.trimURLs", false);
+user_pref("general.smoothScroll.msdPhysics.enabled", true);
 
 // Enable UI tweaks
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
