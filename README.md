@@ -4,9 +4,10 @@ Small Firefox config to disable most of the junk and slightly improve privacy an
 
 This is a very minimal config, so it should be compatible with all modern Firefox versions and is unlikely to get broken by updates.
 
-😌 **Want freedom from the junk and true peace of mind?**
+😌 **Want to achieve true peace of mind?**
 
-Consider using [Zen Browser](https://zen-browser.app/) instead to save yourself headaches. All updates will be free from the junk.
+Consider using [Zen Browser](https://zen-browser.app/) instead to save yourself headaches.
+All updates will be free from the junk, regardless of what Mozilla decides next.
 
 ## Tweaks
 
