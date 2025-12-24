@@ -59,10 +59,13 @@ I recommend installing some extensions to enhance your browsing experience:
 -   [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) - Dark mode for websites
 -   [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) - Better password manager (multiplatform)
 -   [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/) - Skip annoying URL shorteners
+-   [behind!](https://addons.mozilla.org/en-US/firefox/addon/behind/) - Reveal images hidden in the background of websites
+-   [Image Search Options](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) - Add options for reverse image search
 -   [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) - Skip sponsored segments on YouTube
 -   [Return YouTube Dislike](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/) - Bring back dislikes on YouTube
 -    [YouTube Row Fixer](https://addons.mozilla.org/en-US/firefox/addon/youtube-row-fixer-extension/) - Make homepage less claustrophobic
--   [YouTube No Translation](https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/) - Turn off AI auto-dubbing and title auto-translations
+-   [YouTube No Translation](https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/) - Turn off AI auto-dubbing and auto-translations
+-   [Minimal Theme for Twitter](https://addons.mozilla.org/en-US/firefox/addon/minimaltwitter/) - Remove clutter
 
 ## Acknowledgements
 
