@@ -2,12 +2,12 @@
 
 /* Hide the close button by default */
 #TabsToolbar .close-icon {
-  display: none !important;
+    display: none !important;
 }
 
 /* Show the close button on hover */
 #TabsToolbar .tabbrowser-tab:not([pinned]):hover .close-icon {
-  display: inline-block !important;
+    display: inline-block !important;
 }
 
 /* Show the close button on selected tab */
@@ -17,12 +17,7 @@
 
 /* Tab bar */
 
-/* Remove the space on the left of the tab bar */
-.titlebar-spacer[type="pre-tabs"] {
-  display: none !important;
-}
-
-/* Also remove the separator */
+/* Remove the separator */
 #tabbrowser-tabs {
-  border-inline-start: none !important;
+    border-inline-start: none !important;
 }
