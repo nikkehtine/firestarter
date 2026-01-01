@@ -62,7 +62,7 @@ user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref(
   "browser.firefox-view.feature-tour",
-  '{"message":"FIREFOX_VIEW_FEATURE_TOUR","screen":"","complete":true}',
+  "{\"message\":\"FIREFOX_VIEW_FEATURE_TOUR\",\"screen\":\"\",\"complete\":true}",
 );
 user_pref("trailhead.firstrun.didSeeAboutWelcome", true);
 user_pref("media.videocontrols.picture-in-picture.video-toggle.has-used", true);
@@ -80,14 +80,14 @@ user_pref("browser.urlbar.trimURLs", false);
 
 // Steal smoother scrolling from Zen Browser
 user_pref("general.smoothScroll.msdPhysics.enabled", true);
-user_pref("general.smoothScroll.currentVelocityWeighting", 0.15);
+user_pref("general.smoothScroll.currentVelocityWeighting", "0.15");
 user_pref("general.smoothScroll.mouseWheel.durationMinMS", 80);
-user_pref("general.smoothScroll.mouseWheel.stopDecelerationWeighting", 0.6);
+user_pref("general.smoothScroll.mouseWheel.stopDecelerationWeighting", "0.6");
 user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);
 user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant", 600);
 user_pref("general.smoothScroll.msdPhysics.regularSpringConstant", 650);
 user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS", 25);
-user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio", 1.3);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio", "1.3");
 user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant", 250);
 
 // Better font rendering on Windows (this has no effect on Linux/macOS)
