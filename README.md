@@ -49,8 +49,8 @@ All updates will be free from the junk, regardless of what Mozilla decides next.
 ## Installing
 
 > [!WARNING]
-> Install this config right after a fresh Firefox installation or after creating a new profile.
-> Installing on a profile already in use can cause issues. Use at your own risk.
+> You should preferably install this config right after a fresh Firefox installation or after creating a new profile.
+> Installing on a profile already in use might cause issues. Use at your own risk.
 
 1. Download this repository
 2. Go to `about:support`
@@ -73,10 +73,11 @@ I recommend installing some extensions to enhance your browsing experience:
 - [Return YouTube Dislike](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/) - Bring back dislikes on YouTube
 - [YouTube Row Fixer](https://addons.mozilla.org/en-US/firefox/addon/youtube-row-fixer-extension/) - Make homepage less claustrophobic
 - [YouTube No Translation](https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/) - Turn off AI auto-dubbing and auto-translations
-- [Minimal Theme for Twitter](https://addons.mozilla.org/en-US/firefox/addon/minimaltwitter/) - Remove clutter
+- [Minimal Theme for Twitter](https://addons.mozilla.org/en-US/firefox/addon/minimaltwitter/) - Remove clutter on Twitter
 
 ## Acknowledgements
 
 - [Soft-Bred and Brave-Fox](https://github.com/Soft-Bred/Brave-Fox) for [this cool document about styling Firefox](https://brave-fox.notion.site/Overflow-Files-adf332802aab4dcf98785f9b7307ea5f)
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS) community
 - [Disable AI in Firefox article](https://flamedfury.com/posts/disable-ai-in-firefox/) by FlamedFury
+- [simpleMenuWizard](https://github.com/stonecrusher/simpleMenuWizard) for hiding context menu options
