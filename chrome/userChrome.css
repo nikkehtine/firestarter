@@ -2,12 +2,12 @@
 
 /* Hide the close button by default */
 #TabsToolbar .close-icon {
-  display: none !important;
+    display: none !important;
 }
 
 /* Show the close button on hover */
 #TabsToolbar .tabbrowser-tab:not([pinned]):hover .close-icon {
-  display: inline-block !important;
+    display: inline-block !important;
 }
 
 /* Show the close button on selected tab */
@@ -19,7 +19,7 @@
 
 /* Remove the separator */
 #tabbrowser-tabs {
-  border-inline-start: none !important;
+    border-inline-start: none !important;
 }
 
 /* Slim down the context menus */
@@ -30,5 +30,5 @@
 #context-sendvideo, /* Email Video */
 #context-sendaudio, /* Email Audio */
 #context-sendlink /* Email Link */ {
-  display: none !important;
+    display: none !important;
 }
