@@ -29,7 +29,6 @@ All updates will be free from the junk, regardless of what Mozilla decides next.
 - Hide the tab close button and show it on hover
   - You can enable always showing the close button on active tabs
 - Remove the left side separator on the tab bar
-- Remove extra padding on the left on unmaximized windows
 
 ### Extras
 
